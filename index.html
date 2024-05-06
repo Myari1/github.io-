@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Showcase</title>
+    <style>
+        body {
+            background-color: #98c1d9; 
+            font-family: 'Arial', sans-serif; 
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #204051; 
+        }
+        nav {
+            margin: 10px;
+        }
+        nav a {
+            color: #2565ae; 
+            text-decoration: none;
+            margin-right: 20px; /* Adds spacing between the links */
+        }
+        nav a:hover {
+            text-decoration: underline; 
+        }
+        img {
+            width: 100%;
+            max-width: 300px; 
+            height: auto;
+            margin: 5px;
+        }
+        .gif {
+            max-width: 60px; /* Small size for the GIF */
+            margin: 0 10px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 80%;
+            margin: 20px;
+        }
+        .paragraph {
+            text-align: center;
+            padding: 0 20px;
+            max-width: 400px; /* Fixed width for the paragraph */
+        }
+        .images-left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .images-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><img src="camera.gif" alt="Camera icon" class="gif">Photography<img src="camera.gif" alt="Camera icon" class="gif"></h1>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="https://photographylife.com/photography-tips-for-beginners" target="_blank">TIPS/GUIDES</a>
+        <a href="about-me.html">ABOUT ME</a>
+    </nav>
+    <div class="content">
+        <div class="images-left">
+            <img src="rose.jpg" alt="Close-up of a rose in a vase">
+            <img src="landscape.jpg" alt="Colorful sunset reflected in a mountain lake">
+        </div>
+        <p class="paragraph">
+            Photography captures the <strong>essence of fleeting moments</strong> with a click. Each image provides a unique perspective, revealing <strong>unseen details</strong> of our world. From serene natural landscapes to vibrant city scenes, photography allows us to appreciate life's diverse beauty.
+        </p>
+        <div class="images-right">
+            <img src="milky way.jpg" alt="The Milky Way galaxy over rocky mountains">
+        </div>
+    </div>
+</body>
+</html>
+
